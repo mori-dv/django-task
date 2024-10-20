@@ -40,3 +40,24 @@ This project is a RESTful API built using Django and Django REST Framework (DRF)
 ```bash
 git clone https://github.com/mori-dv/django-task.git
 cd django-task
+```
+
+### 2. Create virtual Environment
+```bash
+python -m venv env
+source env/bin/activate
+```
+### 3. Install dependencies
+```bash
+pip install -r requirments.txt
+``` 
+### 4. migrations
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+### 5. project is ready
+#### you can run the test or try running development server
+```bash
+python manage.py test
+```
