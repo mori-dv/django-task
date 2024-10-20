@@ -26,7 +26,7 @@ class CategoryViewSet(viewsets.ModelViewSet):
 class BookViewSet(viewsets.ModelViewSet):
     queryset = Book.objects.all()
     serializer_class = BookSerializer
-    pagination_class = PageNumberPagination
+    pagination_class = BookPagination
     filter_backends = [filters.SearchFilter]
     search_fields = ['title', 'author']
 
