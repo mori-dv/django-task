@@ -61,3 +61,5 @@ python manage.py migrate
 ```bash
 python manage.py test
 ```
+
+### I could also use some security stuffs, and use better database like postgresql etc. but I tried to keep it simple for preparing and running easier
